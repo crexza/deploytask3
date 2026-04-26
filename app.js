@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Render App!");
+  res.send("Hello from Render auto Deploy!");
 });
 
 app.listen(3000, () => {
